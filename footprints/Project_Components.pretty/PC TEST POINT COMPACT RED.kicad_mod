@@ -1,0 +1,107 @@
+(footprint "PC TEST POINT COMPACT RED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -2.4064 0)
+		(layer "F.SilkS")
+		(uuid "2aa5ea77-bb82-4df9-962f-60dd1cb3c5aa")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5005"
+		(at 0 2.4064 0)
+		(layer "F.Fab")
+		(uuid "aee402e1-7f12-4201-a814-f0f33399d9d0")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0ff30f8-3071-4c9e-a48b-4544fef94837")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b00d8b-9d27-451b-a8d7-2732bd288482")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5c56b3e-310b-4483-942d-f492c30b5b7f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.84 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0630afc7-b77e-4bb1-b518-5ac47a04794a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bbdf3f4b-e459-41a1-8d48-1d1fe5487ce7")
+	)
+	(pad "TP" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4148cb1f-a4d1-4552-beab-0f5837a00a13")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_LIBS_DIR}/3dmodels/PC TEST POINT COMPACT RED.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
